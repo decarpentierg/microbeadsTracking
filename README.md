@@ -4,7 +4,7 @@ Ce code a permis d'étudier la compression d'une goutte de gel bloquée dans un 
 
 Le procédé utilisé est le suivant :
 
-* On détecte un nombre $nbilles$ de billes sur chaque image en utilisant un filtre de convoution adapté à la forme des microbilles que l'on souhaite détecter (ici généralement un carré creux de 3x3 pixels)
+* On détecte un nombre *nbilles* de billes sur chaque image en utilisant un filtre de convoution adapté à la forme des microbilles que l'on souhaite détecter (ici généralement un carré creux de 3x3 pixels)
 * On fait le lien entre les billes détectées indépendamment sur chaque image en utilisant le transport optimal (algorithme hongrois).
 * On en déduit la "matrice des déformations" autour de chaque bille en effectuant une régression linéaire sur les déplacements relatifs de ses plus proches voisins par rapport à elle.
 * On calcule une triangulation de Delaunay et on effectue une interpolation affine sur chaque triangle pour estimer la valeur de cette matrice en chaque point de la goutte.
