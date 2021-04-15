@@ -14,3 +14,7 @@ Le code est structuré de la façon suivante :
 * La classe Débit est sert à gérer les paramètres de chaque film réalisé (correspondant à des débits différents) : nombre d'images, numérotation des images, nombre de billes à détecter... Seul l'un de ces films a pu être uploadé sur GitHub à cause de la limitation en espace mémoire mais nous en avons en réalité étudié 6, d'où l'utilité de cette classe.
 * La classe Image sert à gérer les images indépendamment les unes des autres : chargement de l'image, repérage de la forme de la goutte, des microbilles, affichage etc.
 * La classe Movie permet de faire le lien entre les différentes images d'un film : tracking des microbilles à l'aide du transport optimal, calcul de la matrice de compression, affichage des trajectoires et de la compression, ...
+
+Le module *microbeadsTracking* contient le code de ces trois classes et est importé dans le notebook correspondant qui permet son utilisation et la visualisation des résultats sur le film *compression150a*.
+
+![cisFilm2](https://user-images.githubusercontent.com/82534773/114894174-b34f9500-9e0e-11eb-8ee5-8cf83cff4472.jpg)
