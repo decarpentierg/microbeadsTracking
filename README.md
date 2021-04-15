@@ -1,5 +1,7 @@
 # Tracking de microbilles et étude de la compression d'une goutte dans un circuit microfluidique
 
+![gitHubIllustration2](https://user-images.githubusercontent.com/82534773/114895783-1130ac80-9e10-11eb-91af-fffd21a1f52e.jpg)
+
 Ce code a permis d'étudier la compression d'une goutte de gel bloquée dans un entonnoir lorsque celle-ci était soumise à des débits variés (cf. images dans le dossier compression150a). Des microbilles introduites dans la goutte ont permis de déterminer la matrice jacobienne de la transformation (appelée abusivement "matrice des déformations" ou "matrice de comression" dans le code) en chaque point de la goutte.
 
 Le procédé utilisé est le suivant :
@@ -17,4 +19,3 @@ Le code est structuré de la façon suivante :
 
 Le module *microbeadsTracking* contient le code de ces trois classes et est importé dans le notebook correspondant qui permet son utilisation et la visualisation des résultats sur le film *compression150a*.
 
-![cisFilm2](https://user-images.githubusercontent.com/82534773/114894174-b34f9500-9e0e-11eb-8ee5-8cf83cff4472.jpg)
