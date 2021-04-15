@@ -2,7 +2,7 @@
 
 ![gitHubIllustration2](https://user-images.githubusercontent.com/82534773/114895783-1130ac80-9e10-11eb-91af-fffd21a1f52e.jpg)
 
-Ce code a permis d'étudier la compression d'une goutte de gel bloquée dans un entonnoir lorsque celle-ci était soumise à des débits variés (cf. images dans le dossier compression150a). Des microbilles introduites dans la goutte ont permis de déterminer la matrice jacobienne de la transformation (appelée abusivement "matrice des déformations" ou "matrice de comression" dans le code) en chaque point de la goutte.
+Ce code a permis d'étudier la compression d'une goutte de gel bloquée dans un entonnoir lorsque celle-ci était soumise à des débits variés (cf. images ci-dessus). Des microbilles introduites dans la goutte ont permis de déterminer la matrice jacobienne de la transformation (appelée abusivement "matrice des déformations" ou "matrice de comression" dans le code) en chaque point de la goutte.
 
 Le procédé utilisé est le suivant :
 
@@ -17,5 +17,5 @@ Le code est structuré de la façon suivante :
 * La classe Image sert à gérer les images indépendamment les unes des autres : chargement de l'image, repérage de la forme de la goutte, des microbilles, affichage etc.
 * La classe Movie permet de faire le lien entre les différentes images d'un film : tracking des microbilles à l'aide du transport optimal, calcul de la matrice de compression, affichage des trajectoires et de la compression, ...
 
-Le module *microbeadsTracking* contient le code de ces trois classes et est importé dans le notebook correspondant qui permet son utilisation et la visualisation des résultats sur le film *compression150a*.
+Le module *microbeadsTracking* contient le code de ces trois classes et est importé dans le notebook correspondant qui permet son utilisation et la visualisation des résultats sur le film *compression150a*, réalisé au débit de 150 microlitres par minute.
 
